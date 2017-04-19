@@ -13,6 +13,6 @@ app.use(express.static('./public'))
 todoController(app)
 
 //listen to port
-app.listen(80, '162.243.224.196', () => {
+app.listen(80, () => {
     console.log('you are listening to port 80...')
 })
